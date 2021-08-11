@@ -1,0 +1,19 @@
+{
+   "manifest_version": 2,
+   "name": "SayIt",
+   "version": "1.0",
+   "description": "This extension will say the text which you selected",
+   "icons": {
+       "128": "SayIt128.png",
+       "48" : "SayIt48.png",
+       "16" : "SayIt16.png"
+   },
+   "background":{
+       "scripts":["eventPage.js"],
+       "persistent": false
+   },
+   "permissions": [
+       "tts",
+       "contextMenus"
+   ]
+}
